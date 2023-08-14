@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_dot"
+        android:title=""
+        app:showAsAction="always">
+    <menu>
+    <item
+        android:id="@+id/mSignUp"
+        android:icon="@drawable/person"
+        android:title="Sign Up"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSignIn"
+        android:icon="@drawable/ic_login"
+        android:title="Sign In"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSignOut"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom" />
+
+    </menu>
+    </item>
+</menu>

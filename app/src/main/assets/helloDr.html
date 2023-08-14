@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+            integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <nav>
+        <div class="container1">
+            <div class="logo">
+                <h2>Dragonfly</h2>
+            </div>
+            <div class="pto">
+                <img src="D_google8.jpg" height="60" width="60">
+            </div>
+        </div>
+
+        <div class="media">
+            <ul>
+                <li>Dragonflies are insects belonging to the order Odonata.</li>
+                <li>They are characterized by their large compound eyes, long and slender bodies,
+                    and four transparent wings.
+                </li>
+                <li>Dragonflies are agile fliers, capable of swift and precise movements.</li>
+                <li>They are often found near water bodies such as lakes, ponds, and streams, where
+                    they lay their eggs and spend the majority of their life cycle as nymphs
+                    underwater before transforming into adults.
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    TweenMax.from(".logo", 2, {
+            opacity: 0,
+            delay: 1.0,
+            y: -800,
+            ease: Expo.easeInOut
+        })
+
+    TweenMax.from(".pto", 1, {
+      opacity: 0,
+      x: 40,
+      ease: Expo.easeOut,
+      delay: 1.5
+    });
+
+    TweenMax.to(".pto img", 4, {
+      rotation: 720, // 720 degrees for two full circles
+      ease: Power0.easeNone,
+      repeat: -1, // Set the number of repeats or use -1 for infinite repeat
+      delay: 1.7
+    });
+
+    TweenMax.staggerFrom(".media ul li", 2, {
+      opacity: 0,
+      delay: 2.5,
+      y: 40,
+      ease: Expo.easeInOut
+    }, 0.2);
+
+</script>
+</body>
+
+</html>

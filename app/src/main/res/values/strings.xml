@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Tutorial</string>
+    <string name="open">Tutorial</string>
+    <string name="close">Tutorial</string>
+    <string name="menu_drawer_open">Drawer Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+    <string name="youtube_api_key">AIzaSyDIhXHvOen4iWw50pGv0MS7akE3G2_JYwA</string>
+    <string name="page1">
+        Grasshoppers are a group of insects
+        belonging to the suborder Caelifera. They are among what is possibly the most
+        ancient living group of chewing herbivorous insects, dating back to the early
+        Triassic around 250 million years ago.
+    </string>
+    <string name="page2">
+        Spiders (order Araneae) are air-breathing arthropods that have
+        eight legs, chelicerae with fangs generally able to inject venom,
+        [2] and spinnerets that extrude silk.[3] They are the largest order
+        of arachnids and rank seventh in total species diversity among all orders of
+        organisms.
+    </string>
+    <string name="page3">
+        Mosquitoes (or mosquitos) are members of a group of almost 3,600
+        species of small flies within the family Culicidae (from the Latin culex
+        meaning "gnat").[1] The word "mosquito" (formed by mosca and diminutive -ito)
+        [2] is Spanish for "little fly".[3][4] Mosquitoes have a slender segmented
+        body, one pair of wings, one pair of halteres, three pairs of long hair-like
+        legs, and elongated mouthparts.
+    </string>
+    <string name="page4">
+        Butterflies are insects in the macrolepidopteran clade Rhopalocera from
+        the order Lepidoptera, which also includes moths. Adult butterflies have
+        large, often brightly coloured wings, and conspicuous, fluttering flight.
+        The group comprises the large superfamily Papilionoidea, which contains at
+        least one former group, the skippers (formerly the superfamily "Hesperioidea").
+    </string>
+    <string name="page5">
+        A dragonfly is a flying insect belonging to the infraorder
+        Anisoptera below the order Odonata. About 3,000 extant species of true
+        dragonfly are known. Most are tropical, with fewer species in temperate
+        regions. Loss of wetland habitat threatens dragonfly populations around the
+        world.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="resturant">
+        <item>Choose</item>
+        <item>Burger</item>
+        <item>Carls</item>
+        <item>Pizza</item>
+        <item>McDonalds</item>
+        <item>Nandos</item>
+    </string-array>
+
+    <string-array name="array_indian_states">
+        <item>Select Your District</item>
+        <item>Andaman and Nicobar Islands</item>
+    </string-array>
+
+    <string-array name="array_default_districts">
+        <item>Select Your Subdistrict</item>
+    </string-array>
+
+    <string-array name="array_andhra_pradesh_districts">
+        <item>Select Your District</item>
+        <item>Anantapur</item>
+        <item>Chittoor</item>
+        <item>East Godavari</item>
+        <item>Guntur</item>
+        <item>Kadapa</item>
+        <item>Krishna</item>
+        <item>Kurnool</item>
+        <item>Nellore</item>
+        <item>Prakasam</item>
+        <item>Srikakulam</item>
+        <item>Visakhapatnam</item>
+        <item>Vizianagaram</item>
+        <item>West Godavari</item>
+    </string-array>
+
+</resources>

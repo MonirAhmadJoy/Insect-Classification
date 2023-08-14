@@ -1,0 +1,26 @@
+$primary-color: rgb(255, 255, 255);
+$logo-color: rgb(99, 17, 231);
+body {
+  background-color: $primary-color;
+}
+
+.logo {
+  color: $logo-color;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo,
+.pto {
+  margin-right: 10px;
+  /* Optional: Add margin between the two divs */
+}
+
+
+.pto {
+  position: relative;
+  right: 0;
+}

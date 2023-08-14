@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+            integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <nav>
+        <div class="container1">
+            <div class="logo">
+                <h2>Spider</h2>
+            </div>
+            <div class="pto">
+                <img src="wolf-spider.jpg" height="60" width="60">
+            </div>
+        </div>
+
+        <div class="media">
+            <ul>
+                <li>Spiders are arachnids that belong to the class Arachnida and the order Araneae.
+                    They are known for their characteristic eight legs and ability to produce silk.
+                </li>
+                <li>There are over 48,000 known species of spiders found worldwide, inhabiting
+                    diverse habitats such as forests, deserts, and even underwater environments.
+                </li>
+                <li>Spiders are predators that primarily feed on insects and other small arthropods.
+                    They use their venomous fangs to inject venom into their prey, paralyzing or
+                    killing them.
+                </li>
+                <li>Some species of spiders, like the orb-weaving spiders, create intricate webs to
+                    capture their prey, while others, like hunting spiders, rely on their keen
+                    senses to actively hunt down their prey.
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<script>
+    TweenMax.from(".logo", 2, {
+            opacity: 0,
+            delay: 1.0,
+            y: -800,
+            ease: Expo.easeInOut
+        })
+
+    TweenMax.from(".pto", 1, {
+      opacity: 0,
+      x: 40,
+      ease: Expo.easeOut,
+      delay: 1.5
+    });
+
+    TweenMax.to(".pto img", 4, {
+      rotation: 720, // 720 degrees for two full circles
+      ease: Power0.easeNone,
+      repeat: -1, // Set the number of repeats or use -1 for infinite repeat
+      delay: 1.7
+    });
+
+    TweenMax.staggerFrom(".media ul li", 2, {
+      opacity: 0,
+      delay: 2.5,
+      y: 40,
+      ease: Expo.easeInOut
+    }, 0.2);
+
+</script>
+</body>
+
+</html>

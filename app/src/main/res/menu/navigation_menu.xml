@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:title="Task">
+            <menu>
+<!--navigationView.setItemIconTintList(null); to use image in navigation programatically-->
+                <item
+                    android:id="@+id/mHome"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:background="@android:color/transparent"
+                    android:title="Home" />
+
+                <item
+                    android:id="@+id/mPredict"
+                    android:icon="@drawable/capture"
+                    android:title="Prediction" />
+
+                <item
+                    android:id="@+id/post"
+                    android:icon="@drawable/ic_baseline_post_add_24"
+                    android:background="@android:color/transparent"
+                    android:title="Posts" />
+
+                <item
+                    android:id="@+id/mYou"
+                    android:icon="@drawable/github"
+                    android:background="@android:color/transparent"
+                    android:title="GitHub" />
+
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
